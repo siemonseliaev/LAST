@@ -1,0 +1,26 @@
+package_name = "my_awesome_package"
+repo_url = "https://github.com/example/repo"
+repo_mode = "online"
+package_version = "1.0.0"
+output_image = "output.png"
+max_depth = 3
+
+title = "Приложение для управления проектом"
+
+[owner]
+name = "Иван Иванов"
+email = "ivan@example.com"
+
+[database]
+server = "192.168.1.1"
+ports = [ 8000, 8001, 8002 ]
+connection_max = 5000
+enabled = true
+
+[servers.alpha]
+ip = "10.0.0.1"
+dc = "eqdc10"
+
+[servers.beta]
+ip = "10.0.0.2"
+dc = "eqdc11"

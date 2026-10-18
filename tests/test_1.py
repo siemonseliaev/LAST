@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 # Импортируем функции из вашего скрипта (замените Try на фактическое имя файла, если оно изменится, например Try_2)
-from Try import validate_config, load_config
+from TryKonf import validate_config, load_config
 
 
 class TestConfigValidation(unittest.TestCase):
